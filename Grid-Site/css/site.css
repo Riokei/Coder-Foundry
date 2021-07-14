@@ -1,0 +1,21 @@
+main>.container {
+    padding: 60px 15px 0;
+}
+.herobg {
+    width: 100%;
+    background: url(/Grid-Site/img/GridBG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.heroText {
+    font-family: modesto-open-shadow, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(195, 255, 0);
+}
+
+.minHeight {
+    min-height: 80vh;
+}
