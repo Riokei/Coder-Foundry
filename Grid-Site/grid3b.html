@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>Boostrap and Grids: Grid Two</title>
+    <title>Boostrap and Grids: Grid Three</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -34,10 +34,10 @@
                     <a class="nav-link" href="/Grid-Site/grid1.html">Grid 1</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/Grid-Site/grid2.html">Grid 2</a>
+                    <a class="nav-link " href="/Grid-Site/grid2.html">Grid 2</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/Grid-Site/grid3.html">Grid 3</a>
+                    <a class="nav-link active" aria-current="page" href="/Grid-Site/grid3.html">Grid 3</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/Grid-Site/grid4.html">Grid 4</a>
@@ -64,17 +64,50 @@
 
     <main class="flex-shrink-0">
        <div class="container h-100 minHeight">
+           <ul class="nav nav-pills mb-1">
+               <li class="nav-item">
+                   <a href="grid3.html"" class="nav-link " >Grid 3</a>
+               </li>
+               <li class="nav-item">
+                   <a href="grid3b.html" class="nav-link active" aria-current="page">Grid 3:B</a>
+               </li>
+           </ul>
            <div class="row h-100">
-               <div class="col-4 ">
-                   <div class="bg-secondary text-light h-100 p-3">
-                        <h5>Side Nav</h5>
-                    </div>
-               </div>
-               <div class="col-8">
-                   <div class="bg-dark text-white h-100 p-3">
-                    <h5>Main Content</h5>
+               <!--Left-->
+               <div class="col-7 h-100">
+                   <div class="bg-secondary text-light p-2 h-100">
+                    <p>Lorem ipsum dolor sit amet. Aut maiores dicta 33 minus eligendi aut deserunt beatae. Qui tempora ipsum eos nihil ipsa33 nemo. 33 corporis rerum sit corrupti molestiaset magni! Ut maxime natus et sapiente delectus est ducimus ipsum ab minus molestias. </p>
+
                    </div>
-                
+               </div>
+               <!--Right-->
+               <div class="col-5">
+                   <!--Right Top-->
+                   <div class="bg-secondary text-light  mt-2 p-2 ">
+                       <form class="d-flex">
+                           <input class="form-control me-2" type="search" placeholder="search" aria-label="search">
+                           <button class="btn btn-outline-light text-white" type="submit">Search</button>
+                       </form>                                           
+                   </div>
+                   <!--Right Bottom-->
+                   <div class="bg-dark text-light  mt-2 p-2">
+                    <h5>More Articles</h5>
+                    <ul class=" nav flex-column">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Article One</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Article Two</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Article Three</a>
+                        </li>
+                    </ul>
+                   </div>
+                   <div class="bg-dark text-light border border-top p-2">
+                       <button class="btn btn-light" type="button">Read Me</button>
+                   </div>
+
                </div>
            </div>
        </div>
