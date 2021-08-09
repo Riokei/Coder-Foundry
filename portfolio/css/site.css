@@ -1,18 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap');
 body {
+    
     font-family: 'Raleway', sans-serif;
 }
 h1 {
     font-weight: 600;
+}
+.underline {
+    border-bottom: 3px solid goldenrod;
+    display: inline;
+}
+.hero {    
+    background: transparent url("../img/remy_loz-desk-unsplash.jpg") no-repeat center center /cover;
+    
+    min-height: 100%;
+}
+section.res-sec {
+    display: flex;
+    align-items: center;
+    padding: 2rem 3rem 0rem 3rem;
+    min-width: 100%;
+    min-height: 100vh;
+    border-bottom: 1px solid black;
+}
+section.res-sec .res-sec-content {
+    width: 100%;
 }
 .bar {
     width: 280px;
     height: 100vh;
     max-width: 100%;
 }
-.prof-pic img{
+.prof-pic{
     border-radius: 50%;
-    border: 6px black;
+    border: 6px gray;
 }
 .side-nav {
     list-style: none;
@@ -34,4 +55,14 @@ li {
     color: goldenrod;
 
 }
-
+.sticky {
+    position: -webkit-sticky;
+	position: sticky;
+    top: 0;
+    align-self: flex-start;
+}
+@media screen (min-width: 579px){
+    .mar {
+        padding: 65px 0;
+    }
+}
