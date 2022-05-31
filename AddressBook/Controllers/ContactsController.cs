@@ -67,6 +67,10 @@ namespace AddressBook.Controllers
                     contact.ImageData = await _imageService.ConvertFileToByteArrayAsync(contact.ImageFile);
                     contact.ImageType = contact.ImageFile.ContentType;
                 }
+                if (contact.Address2 == null)
+                {
+                    contact.Address2 = (contact.Address2 ?? string.Empty);
+                }
                
 
                 _context.Add(contact);
